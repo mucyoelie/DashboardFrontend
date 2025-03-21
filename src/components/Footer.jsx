@@ -1,16 +1,15 @@
 
-
 const Footer = () => {
   return (
-   
-        <footer className="bg-gray-100 text-white  px-5 w-full relative z-20 border-t-2 border-[#B0B0B0]">
-            <div className="max-w-4xl mx-40 text-end font-semibold flex flex-col">
-            <p className="mt-6 text-lg sm:text-lg text-[#003366]">
-          &copy; {new Date().getFullYear()} Developed by <span className="text-[#006242]">mucyo.web</span>
+    <footer className="bg-gray-100 text-white px-5 w-full relative z-20 border-t-2 border-gray-200 dark:border-gray-900 dark:bg-black mt-[4rem] ">
+      <div className="max-w-4xl mx-30 text-center sm:text-end font-semibold flex flex-col w-full">
+        <p className="mt-6 text-lg text-gray-900 dark:text-white">
+          Copyright &copy; {new Date().getFullYear()} MISTA LLC - 
+          <span className="text-[#006242]"> All Rights Reserved</span>
         </p>
-            </div>
+      </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
